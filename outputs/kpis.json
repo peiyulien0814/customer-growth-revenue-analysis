@@ -1,0 +1,17 @@
+{
+  "source": "online_retail.csv",
+  "source_rows": 541909,
+  "included_line_items": 530104,
+  "excluded": {
+    "cancellations_or_nonpositive_quantity": 10624,
+    "nonpositive_price": 1181,
+    "missing_customer_id": 132220
+  },
+  "sales_gbp": 10666684.54,
+  "orders": 19960,
+  "identified_customers": 4338,
+  "units": 5588376,
+  "average_order_value_gbp": 534.4,
+  "currency": "GBP",
+  "note": "Gross positive sales only; cancellations and returns excluded. Not net revenue, profitability, true conversion rate or marketing ROI."
+}
