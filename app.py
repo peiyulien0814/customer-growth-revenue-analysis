@@ -30,6 +30,8 @@ if page=='Executive overview':
     e.metric('Identified customers',f"{k['identified_customers']:,}")
     st.subheader('Monthly positive sales')
     monthly=d['monthly_sales'].copy()
+    monthly = monthly[(monthly['month'] >= '2011-01') & (monthly['month'] <= '2011-11')]
+  
     fig=px.line(monthly,x='month',y='sales_gbp',markers=True,labels={'month':'Invoice month','sales_gbp':'Positive sales (£)'})
     fig.update_traces(line_color=colors[0],line_width=3)
     fig.update_layout(height=370,hovermode='x unified')
