@@ -1,5 +1,9 @@
 # Customer Growth & Revenue Analysis
 
+**[View Live Interactive Dashboard](https://customer-growth-revenue-analysis-euprnnc5liwmbrwhrauiey.streamlit.app)**
+
+**[View Business Case Study (PDF)](Business_Case_Study_3_Pages.pdf)**
+
 **A reproducible business analytics case study on actual UCI Online Retail transactions (2010–2011).**
 
 > Portfolio exercise. Historical public dataset; not a commissioned business engagement. Python, SQL, and dashboard code were initially prepared with AI assistance and should be reviewed and explained by the presenter.
