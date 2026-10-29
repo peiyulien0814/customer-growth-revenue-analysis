@@ -14,7 +14,6 @@
 - **Excel analytics report:** [`Retail_Analysis_UCI_REAL.xlsx`](Retail_Analysis_UCI_REAL.xlsx)
 - **Data pipeline:** `src/pipeline.py` (Python -> SQLite -> aggregated CSVs)
 - **SQL:** `sql/business_queries.sql`
-- **Interview talk track:** `INTERVIEW_TALK_TRACK.md`
 
 ## Verified results
 | Metric | Value |
@@ -27,6 +26,15 @@
 | Identified customers | 4,338 |
 | Customers with 2+ sale invoices | 2,845 / 4,338 (65.6%) |
 | UK positive sales | £9,025,222.08 (84.6%) |
+
+## Key Business Insights
+**1. Revenue concentration:** The United Kingdom accounted for approximately 84.6% of positive sales, indicating substantial geographic concentration.
+
+**2. Repeat purchasing:** Approximately 65.6% of identifiable customers placed at least two sales orders during the observation period, highlighting opportunities to examine customer retention.
+
+**3. Seasonal demand:** November 2011 recorded approximately £1.51 million in positive sales, suggesting a potential seasonal increase worth investigating.
+
+**4. Data quality limitations:** Missing customer identifiers and non-merchandise charge codes affect customer-level analysis and product performance reporting.
 
 **Definitions / cautions:** excludes cancelled and nonpositive lines, does not offset refunds. This is not net revenue, profit, marketing ROI or website conversion. 132,220 included positive-sale lines lack customer ID; customer analyses exclude them. December 2011 ends on Dec 9; no full-month comparison. Some product descriptions represent postage and fees.
 
@@ -55,4 +63,6 @@ This also generates `outputs/retail_analysis.sqlite`, excluded from Git. The ori
 `app.py` dashboard · `outputs/` real-data aggregates · `src/` data transformation · `sql/` queries · Excel report · PDF case study · presentation notes.
 
 ## Status
-Dashboard application is prepared for deployment. No live public URL exists until the repository is pushed and the app is deployed through your own account.
+Live and publicly deployed.
+
+The interactive Streamlit dashboard is available through the link above. The GitHub repository includes the data processing pipeline, SQL queries, aggregated datasets, Excel report, and business case study.
