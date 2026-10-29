@@ -9,7 +9,7 @@
 > Portfolio exercise. Historical public dataset; not a commissioned business engagement. Python, SQL, and dashboard code were initially prepared with AI assistance and should be reviewed and explained by the presenter.
 
 ## Deliverables
-- **Live dashboard:** [ADD YOUR STREAMLIT URL AFTER DEPLOYMENT]
+- **Live dashboard:** [Open Interactive Dashboard](https://customer-growth-revenue-analysis-euprnnc5liwmbrwhrauiey.streamlit.app)
 - **Three-page case study:** [`Business_Case_Study_3_Pages.pdf`](Business_Case_Study_3_Pages.pdf)
 - **Excel analytics report:** [`Retail_Analysis_UCI_REAL.xlsx`](Retail_Analysis_UCI_REAL.xlsx)
 - **Data pipeline:** `src/pipeline.py` (Python -> SQLite -> aggregated CSVs)
